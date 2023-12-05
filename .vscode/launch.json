@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Docker Node.js Launch",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug",
+      "platform": "node",
+      "node": {
+        "package": "${workspaceFolder}/lesson-3-foundations-of-authenticating-integrations/02-the-basics-of-the-oauth-flow/package.json",
+        "localRoot": "${workspaceFolder}/lesson-3-foundations-of-authenticating-integrations/02-the-basics-of-the-oauth-flow"
+      }
+    }
+  ]
+}
